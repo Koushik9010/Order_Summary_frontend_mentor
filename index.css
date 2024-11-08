@@ -101,6 +101,10 @@ body {
   text-decoration: none;
 }
 
+.plan-details a:hover {
+  color: hsl(210, 100%, 50%);
+}
+
 .payment-confirm {
   width: 100%;
   font-size: 16px;
@@ -116,8 +120,6 @@ body {
 }
 
 .payment-confirm:hover {
-  /* transform: translateY(-2px); */
-  /* box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25); */
   background-color: hsl(210, 100%, 50%);
 }
 
